@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouLearn.Domain", "YouLearn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouLearn.ConsoleApp", "YouLearn.ConsoleApp\YouLearn.ConsoleApp.csproj", "{8A50A43A-F1E3-47D3-AE4F-7E59ED4E118B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouLearn.Infra", "YouLearn.Infra\YouLearn.Infra.csproj", "{65F7806F-F02A-4377-8CE7-0A0BCBD4F520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouLearn.Shared", "YouLearn.Shared\YouLearn.Shared.csproj", "{7E072CB5-8D90-4DE6-9264-C96EE0787E25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{8A50A43A-F1E3-47D3-AE4F-7E59ED4E118B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A50A43A-F1E3-47D3-AE4F-7E59ED4E118B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A50A43A-F1E3-47D3-AE4F-7E59ED4E118B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F7806F-F02A-4377-8CE7-0A0BCBD4F520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F7806F-F02A-4377-8CE7-0A0BCBD4F520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F7806F-F02A-4377-8CE7-0A0BCBD4F520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F7806F-F02A-4377-8CE7-0A0BCBD4F520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E072CB5-8D90-4DE6-9264-C96EE0787E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E072CB5-8D90-4DE6-9264-C96EE0787E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E072CB5-8D90-4DE6-9264-C96EE0787E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E072CB5-8D90-4DE6-9264-C96EE0787E25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

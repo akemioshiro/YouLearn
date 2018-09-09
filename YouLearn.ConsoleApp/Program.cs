@@ -14,7 +14,7 @@ namespace YouLearn.ConsoleApp
                 UltimoNome = "Oshiro",
                 Senha = "12212116"
             };
-            var response = new ServiceUsuario().AdicionarUsuario(adicionarUsuarioRequest);
+            //var response = new ServiceUsuario().AdicionarUsuario(adicionarUsuarioRequest);
 
             Console.ReadKey();
         }

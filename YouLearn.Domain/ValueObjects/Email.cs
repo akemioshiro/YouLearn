@@ -15,6 +15,6 @@ namespace YouLearn.Domain.ValueObjects
                 .IfNotEmail(x => x.Endereco, MSG.X0_INVALIDO.ToFormat("Email"));
         }
 
-        public string Endereco { get; set; }
+        public string Endereco { get; private set; }
     }
 }

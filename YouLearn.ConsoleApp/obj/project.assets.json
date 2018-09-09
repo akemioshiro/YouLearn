@@ -216,6 +216,19 @@
         "runtime": {
           "lib/netstandard2.0/prmToolkit.NotificationPattern.dll": {}
         }
+      },
+      "YouLearn.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "prmToolkit.NotificationPattern": "1.0.20"
+        },
+        "compile": {
+          "bin/placeholder/YouLearn.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/YouLearn.Domain.dll": {}
+        }
       }
     }
   },
@@ -693,12 +706,17 @@
         "prmtoolkit.notificationpattern.1.0.20.nupkg.sha512",
         "prmtoolkit.notificationpattern.nuspec"
       ]
+    },
+    "YouLearn.Domain/1.0.0": {
+      "type": "project",
+      "path": "../YouLearn.Domain/YouLearn.Domain.csproj",
+      "msbuildProject": "../YouLearn.Domain/YouLearn.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
-      "prmToolkit.NotificationPattern >= 1.0.20"
+      "YouLearn.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -708,11 +726,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj",
-      "projectName": "YouLearn.Domain",
-      "projectPath": "C:\\Projetos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj",
+      "projectUniqueName": "C:\\Projetos\\YouLearn\\YouLearn.ConsoleApp\\YouLearn.ConsoleApp.csproj",
+      "projectName": "YouLearn.ConsoleApp",
+      "projectPath": "C:\\Projetos\\YouLearn\\YouLearn.ConsoleApp\\YouLearn.ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\YouLearn\\YouLearn.Domain\\obj\\",
+      "outputPath": "C:\\Projetos\\YouLearn\\YouLearn.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -730,7 +748,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projetos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -743,14 +765,9 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
-          },
-          "prmToolkit.NotificationPattern": {
-            "target": "Package",
-            "version": "[1.0.20, )"
           }
         },
         "imports": [

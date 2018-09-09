@@ -1,0 +1,14 @@
+C:\Projetos\YouLearn\YouLearn.ConsoleApp\bin\Debug\netcoreapp2.1\YouLearn.ConsoleApp.deps.json
+C:\Projetos\YouLearn\YouLearn.ConsoleApp\bin\Debug\netcoreapp2.1\YouLearn.ConsoleApp.runtimeconfig.json
+C:\Projetos\YouLearn\YouLearn.ConsoleApp\bin\Debug\netcoreapp2.1\YouLearn.ConsoleApp.runtimeconfig.dev.json
+C:\Projetos\YouLearn\YouLearn.ConsoleApp\bin\Debug\netcoreapp2.1\YouLearn.ConsoleApp.dll
+C:\Projetos\YouLearn\YouLearn.ConsoleApp\bin\Debug\netcoreapp2.1\YouLearn.ConsoleApp.pdb
+C:\Projetos\YouLearn\YouLearn.ConsoleApp\bin\Debug\netcoreapp2.1\YouLearn.Domain.dll
+C:\Projetos\YouLearn\YouLearn.ConsoleApp\bin\Debug\netcoreapp2.1\YouLearn.Domain.pdb
+C:\Projetos\YouLearn\YouLearn.ConsoleApp\obj\Debug\netcoreapp2.1\YouLearn.ConsoleApp.csprojAssemblyReference.cache
+C:\Projetos\YouLearn\YouLearn.ConsoleApp\obj\Debug\netcoreapp2.1\YouLearn.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Projetos\YouLearn\YouLearn.ConsoleApp\obj\Debug\netcoreapp2.1\YouLearn.ConsoleApp.AssemblyInfoInputs.cache
+C:\Projetos\YouLearn\YouLearn.ConsoleApp\obj\Debug\netcoreapp2.1\YouLearn.ConsoleApp.AssemblyInfo.cs
+C:\Projetos\YouLearn\YouLearn.ConsoleApp\obj\Debug\netcoreapp2.1\YouLearn.ConsoleApp.csproj.CopyComplete
+C:\Projetos\YouLearn\YouLearn.ConsoleApp\obj\Debug\netcoreapp2.1\YouLearn.ConsoleApp.dll
+C:\Projetos\YouLearn\YouLearn.ConsoleApp\obj\Debug\netcoreapp2.1\YouLearn.ConsoleApp.pdb

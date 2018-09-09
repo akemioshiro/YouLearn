@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="YouLearn.Domain.Entities.Video">
+    <Position X="1.5" Y="3.5" Width="1.5" />
+    <AssociationLine Name="UsuarioSugeriu" Type="YouLearn.Domain.Entities.Usuario" ManuallyRouted="true">
+      <Path>
+        <Point X="2.781" Y="3.5" />
+        <Point X="2.781" Y="2.115" />
+        <Point X="3.25" Y="2.115" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ACASQAAEAAQBAAAAAAAAAACAAAAAAEAAAAAAAAAAABA=</HashCode>
+      <FileName>Entities\Video.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="UsuarioSugeriu" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="YouLearn.Domain.Entities.Canal">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAEAAEAAAA=</HashCode>
+      <FileName>Entities\Canal.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Usuario" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="YouLearn.Domain.Entities.Playlist">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Entities\Playlist.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Usuario" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="YouLearn.Domain.Entities.Usuario">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Entities\Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YouLearn.Domain.Entities.Favorito">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAg=</HashCode>
+      <FileName>Entities\Favorito.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Usuario" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
